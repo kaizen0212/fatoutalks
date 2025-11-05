@@ -9,7 +9,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Sparkles, Zap } from "lucide-react";
+import { Sparkles, Zap, Mic2 } from "lucide-react";
 
 const Programs = () => {
   return (
@@ -26,7 +26,7 @@ const Programs = () => {
             <div className="h-1 w-16 bg-gradient-to-r from-secondary to-accent rounded-full mx-auto mt-8"></div>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
             {/* Programme des orateurs */}
             <Card className="border-2 hover:border-secondary transition-all hover:shadow-xl">
               <CardHeader>
@@ -206,6 +206,107 @@ const Programs = () => {
                           <p className="text-sm font-semibold text-primary mt-2">
                             En 15 jours, ta voix devient ton meilleur outil d'influence.
                           </p>
+                        </div>
+
+                        <Button className="w-full" size="lg">
+                          Réserve ton rdv téléphonique
+                        </Button>
+                      </div>
+                    </DialogContent>
+                  </Dialog>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* À VOIX HAUTE - Les cours à la carte */}
+            <Card className="border-2 hover:border-primary transition-all hover:shadow-xl">
+              <CardHeader>
+                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center mb-4">
+                  <Mic2 className="w-6 h-6 text-white" />
+                </div>
+                <CardTitle className="text-2xl">À VOIX HAUTE</CardTitle>
+                <CardDescription className="text-lg">
+                  Les cours à la carte
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-4">
+                  <div className="flex items-baseline gap-2">
+                    <span className="text-3xl font-bold text-primary">100€</span>
+                    <span className="text-muted-foreground">à distance</span>
+                  </div>
+                  <div className="flex items-baseline gap-2">
+                    <span className="text-3xl font-bold text-primary">130€</span>
+                    <span className="text-muted-foreground">en présentiel</span>
+                  </div>
+                  <p className="text-muted-foreground">Séances d'1h30</p>
+                  <p className="text-foreground">
+                    Travaille ce dont tu as besoin, quand tu en as besoin.
+                  </p>
+                  
+                  <Dialog>
+                    <DialogTrigger asChild>
+                      <Button className="w-full mt-4" size="lg">
+                        Voir les détails
+                      </Button>
+                    </DialogTrigger>
+                    <DialogContent className="max-w-2xl max-h-[80vh] overflow-y-auto">
+                      <DialogHeader>
+                        <DialogTitle className="text-2xl">À VOIX HAUTE - Les cours à la carte</DialogTitle>
+                        <DialogDescription className="text-lg">
+                          100€ à distance / 130€ en présentiel - Séances d'1h30
+                        </DialogDescription>
+                      </DialogHeader>
+                      <div className="space-y-6 mt-4">
+                        <div>
+                          <p className="text-muted-foreground italic">
+                            Parce qu'il n'existe pas une seule façon de parler, mais la tienne,
+                            les cours à la carte te permettent de travailler ce dont tu as besoin, quand tu en as besoin.
+                          </p>
+                        </div>
+
+                        <div className="space-y-4">
+                          <h3 className="font-bold text-lg">Chaque séance est un espace privilégié pour :</h3>
+                          
+                          <ul className="space-y-3">
+                            <li className="flex items-start gap-3">
+                              <span className="text-primary mt-1">✓</span>
+                              <span className="text-muted-foreground">Gagner en confiance et en assurance à l'oral</span>
+                            </li>
+                            <li className="flex items-start gap-3">
+                              <span className="text-primary mt-1">✓</span>
+                              <span className="text-muted-foreground">Enrichir ton vocabulaire et affirmer ton style</span>
+                            </li>
+                            <li className="flex items-start gap-3">
+                              <span className="text-primary mt-1">✓</span>
+                              <span className="text-muted-foreground">Travailler ta voix, ta posture et ton énergie</span>
+                            </li>
+                            <li className="flex items-start gap-3">
+                              <span className="text-primary mt-1">✓</span>
+                              <span className="text-muted-foreground">Préparer une prise de parole spécifique (pitch, entretien, réunion, intervention…)</span>
+                            </li>
+                          </ul>
+                        </div>
+
+                        <div className="p-4 bg-primary/10 rounded-lg border-l-4 border-primary">
+                          <p className="text-sm">
+                            Tu choisis ton objectif, et ensemble nous construisons une séance personnalisée, vivante et bienveillante.
+                          </p>
+                        </div>
+
+                        <div className="p-4 bg-muted rounded-lg">
+                          <h4 className="font-semibold mb-3">Tarifs</h4>
+                          <div className="space-y-2">
+                            <div className="flex justify-between items-center">
+                              <span className="text-muted-foreground">À distance</span>
+                              <span className="font-bold text-primary text-xl">100 €</span>
+                            </div>
+                            <div className="flex justify-between items-center">
+                              <span className="text-muted-foreground">En présentiel</span>
+                              <span className="font-bold text-primary text-xl">130 €</span>
+                            </div>
+                            <p className="text-sm text-muted-foreground mt-2">Séance d'1h30</p>
+                          </div>
                         </div>
 
                         <Button className="w-full" size="lg">
