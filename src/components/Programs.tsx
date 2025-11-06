@@ -111,7 +111,11 @@ const Programs = () => {
                           </p>
                         </div>
 
-                        <Button className="w-full" size="lg">
+                        <Button 
+                          className="w-full" 
+                          size="lg"
+                          onClick={() => window.open('https://calendly.com/infomasterclass-op/30min', '_blank')}
+                        >
                           Réserve ton rdv téléphonique
                         </Button>
                       </div>
@@ -208,7 +212,11 @@ const Programs = () => {
                           </p>
                         </div>
 
-                        <Button className="w-full" size="lg">
+                        <Button 
+                          className="w-full" 
+                          size="lg"
+                          onClick={() => window.open('https://calendly.com/infomasterclass-op/30min', '_blank')}
+                        >
                           Réserve ton rdv téléphonique
                         </Button>
                       </div>
@@ -309,7 +317,11 @@ const Programs = () => {
                           </div>
                         </div>
 
-                        <Button className="w-full" size="lg">
+                        <Button 
+                          className="w-full" 
+                          size="lg"
+                          onClick={() => window.open('https://calendly.com/infomasterclass-op/30min', '_blank')}
+                        >
                           Réserve ton rdv téléphonique
                         </Button>
                       </div>
