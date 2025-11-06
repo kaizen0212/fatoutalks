@@ -19,11 +19,20 @@ const About = () => {
               Je suis <span className="text-secondary">Fatou</span>, coach en prise de parole
             </h2>
             <div className="h-1 w-16 bg-gradient-to-r from-secondary to-accent rounded-full"></div>
-            <p className="text-xl text-muted-foreground leading-relaxed">
-              Ma mission : t'aider à parler avec confiance, émotion et authenticité pour que chaque mot laisse une empreinte durable.
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              Issue d'une formation professionnelle en cinéma et présidente d'une association culturelle, j'ai fondé Osez Prendre la Parole pour accompagner celles et ceux qui souhaitent gagner en aisance et en impact à l'oral qu'ils soient entrepreneurs, étudiants ou porteurs de projet.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              J'accompagne les entrepreneures, leaders et créateurs qui veulent affirmer leur voix, incarner leur message et se faire entendre vraiment.
+              Dans une société marquée par l'apparence et le jugement, prendre la parole en public peut devenir une véritable source d'angoisse. Beaucoup redoutent de défendre leurs idées, leurs projets, ou simplement de s'exprimer face à un auditoire.
+            </p>
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              C'est dans ce contexte que j'interviens : pour transmettre les clés de l'art oratoire, et révéler la puissance des mots à travers des outils concrets issus de l'expression scénique et de l'univers du spectacle.
+            </p>
+            <p className="text-lg text-muted-foreground leading-relaxed font-semibold">
+              Car la parole n'est pas un don. Elle s'apprend, elle se travaille, elle se muscle. Et surtout : elle se libère et elle existe !
+            </p>
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              À travers Osez Prendre la Parole, je propose des accompagnements adaptés à différents profils, pour aider chacun à faire entendre sa voix avec confiance, justesse… et impact.
             </p>
           </div>
         </div>
