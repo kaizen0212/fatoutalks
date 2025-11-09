@@ -9,8 +9,9 @@ const About = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-secondary/20 to-accent/20 rounded-3xl blur-2xl"></div>
             <img
               src={professionalImage}
-              alt="Fatou - Coach professionnelle"
+              alt="Fatou, fondatrice d'Osez Prendre la Parole, coach certifiée en art oratoire et expression scénique"
               className="relative rounded-3xl shadow-2xl w-full object-cover aspect-[3/4]"
+              loading="lazy"
             />
           </div>
           

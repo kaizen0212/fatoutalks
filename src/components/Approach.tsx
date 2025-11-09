@@ -71,8 +71,9 @@ const Approach = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-accent/20 to-secondary/20 rounded-3xl blur-2xl"></div>
               <img
                 src={coachingImage}
-                alt="Fatou en session de coaching"
+                alt="Séance de coaching en prise de parole avec Fatou : travail sur la respiration, la voix et la posture"
                 className="relative rounded-3xl shadow-2xl w-full object-cover aspect-[3/4]"
+                loading="lazy"
               />
             </div>
           </div>
