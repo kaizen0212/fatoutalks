@@ -41,7 +41,7 @@ const Programs = () => {
               <CardContent>
                 <div className="space-y-4">
                   <div className="flex items-baseline gap-2">
-                    <span className="text-4xl font-bold text-primary">499€</span>
+                    <span className="text-4xl font-bold text-primary">899€</span>
                     <span className="text-muted-foreground">TTC</span>
                   </div>
                   <p className="text-muted-foreground">1 mois intensif</p>
@@ -59,7 +59,7 @@ const Programs = () => {
                       <DialogHeader>
                         <DialogTitle className="text-2xl">Programme des orateurs sur 1 mois</DialogTitle>
                         <DialogDescription className="text-lg">
-                          499€ TTC - Coaching Individuel Premium et personnalisé
+                          899€ TTC - Coaching Individuel Premium et personnalisé
                         </DialogDescription>
                       </DialogHeader>
                       <div className="space-y-6 mt-4">
@@ -139,7 +139,7 @@ const Programs = () => {
               <CardContent>
                 <div className="space-y-4">
                   <div className="flex items-baseline gap-2">
-                    <span className="text-4xl font-bold text-primary">299€</span>
+                    <span className="text-4xl font-bold text-primary">400€</span>
                     <span className="text-muted-foreground">TTC</span>
                   </div>
                   <p className="text-muted-foreground">15 jours intensif</p>
@@ -157,7 +157,7 @@ const Programs = () => {
                       <DialogHeader>
                         <DialogTitle className="text-2xl">Programme des pitchers - 15 jours intensif</DialogTitle>
                         <DialogDescription className="text-lg">
-                          299€ TTC
+                          400€ TTC
                         </DialogDescription>
                       </DialogHeader>
                       <div className="space-y-6 mt-4">
@@ -240,12 +240,12 @@ const Programs = () => {
               <CardContent>
                 <div className="space-y-4">
                   <div className="flex items-baseline gap-2">
-                    <span className="text-3xl font-bold text-primary">100€</span>
-                    <span className="text-muted-foreground">à distance</span>
+                    <span className="text-3xl font-bold text-primary">120€</span>
+                    <span className="text-muted-foreground">en ligne</span>
                   </div>
                   <div className="flex items-baseline gap-2">
-                    <span className="text-3xl font-bold text-primary">130€</span>
-                    <span className="text-muted-foreground">en présentiel</span>
+                    <span className="text-3xl font-bold text-primary">180€</span>
+                    <span className="text-muted-foreground">en physique</span>
                   </div>
                   <p className="text-muted-foreground">Séances d'1h30</p>
                   <p className="text-foreground">
@@ -262,7 +262,7 @@ const Programs = () => {
                       <DialogHeader>
                         <DialogTitle className="text-2xl">À VOIX HAUTE - Les cours à la carte</DialogTitle>
                         <DialogDescription className="text-lg">
-                          100€ à distance / 130€ en présentiel - Séances d'1h30
+                          120€ en ligne / 180€ en physique - Séances d'1h30
                         </DialogDescription>
                       </DialogHeader>
                       <div className="space-y-6 mt-4">
@@ -306,12 +306,12 @@ const Programs = () => {
                           <h4 className="font-semibold mb-3">Tarifs</h4>
                           <div className="space-y-2">
                             <div className="flex justify-between items-center">
-                              <span className="text-muted-foreground">À distance</span>
-                              <span className="font-bold text-primary text-xl">100 €</span>
+                              <span className="text-muted-foreground">En ligne</span>
+                              <span className="font-bold text-primary text-xl">120 €</span>
                             </div>
                             <div className="flex justify-between items-center">
-                              <span className="text-muted-foreground">En présentiel</span>
-                              <span className="font-bold text-primary text-xl">130 €</span>
+                              <span className="text-muted-foreground">En physique</span>
+                              <span className="font-bold text-primary text-xl">180 €</span>
                             </div>
                             <p className="text-sm text-muted-foreground mt-2">Séance d'1h30</p>
                           </div>
